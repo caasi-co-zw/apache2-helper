@@ -26,7 +26,7 @@ char get_hosts_path(char *host);
 int create_hosts_file(char *hosts_name,char *hosts_email);
 
 // entry point
-int main() {
+int main(void) {
 
     // check if correct platform
 #ifndef __linux__
